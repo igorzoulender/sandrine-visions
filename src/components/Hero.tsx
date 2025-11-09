@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="mb-6">
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
               Essi-Nana Sandrine{" "}
-              <span className="text-gradient">AGBODJI</span>
+              <span className="text-primary">AGBODJI</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-medium mb-8">
               Développeuse Web & Mobile Front-End

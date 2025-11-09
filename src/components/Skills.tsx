@@ -40,9 +40,9 @@ const Skills = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Mes <span className="text-gradient">Compétences</span>
+            Mes <span className="text-primary">Compétences</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
         </div>
 
         {/* Technical Skills */}
@@ -54,7 +54,7 @@ const Skills = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center flex-shrink-0 shadow-soft">
+                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0 shadow-soft">
                   <category.icon className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div className="flex-1">
@@ -79,7 +79,7 @@ const Skills = () => {
         {/* Soft Skills */}
         <div>
           <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-            Compétences <span className="text-gradient">Personnelles</span>
+            Compétences <span className="text-primary">Personnelles</span>
           </h3>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {softSkills.map((skill, index) => (

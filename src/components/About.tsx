@@ -25,9 +25,9 @@ const About = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            À propos de <span className="text-gradient">moi</span>
+            À propos de <span className="text-primary">moi</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
         </div>
 
         <div className="max-w-3xl mx-auto mb-16">
@@ -45,7 +45,7 @@ const About = () => {
               className="p-6 text-center card-hover bg-card border-border/50"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-soft">
+              <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-soft">
                 <value.icon className="w-8 h-8 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-semibold mb-3">{value.title}</h3>

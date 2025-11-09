@@ -45,7 +45,7 @@ const Navigation = () => {
                 e.preventDefault();
                 window.scrollTo({ top: 0, behavior: "smooth" });
               }}
-              className="text-xl font-bold text-gradient"
+              className="text-xl font-bold text-primary"
             >
               SA
             </a>

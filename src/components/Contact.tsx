@@ -29,9 +29,9 @@ const Contact = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Me <span className="text-gradient">Contacter</span>
+            Me <span className="text-primary">Contacter</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
           <p className="mt-6 text-lg text-foreground/80 max-w-2xl mx-auto">
             Un projet en tête ? Une opportunité à discuter ? N'hésitez pas à me contacter,
             je serai ravie d'échanger avec vous.
@@ -45,7 +45,7 @@ const Contact = () => {
                 key={index}
                 className="p-6 text-center card-hover bg-card border-border/50"
               >
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mx-auto mb-4 shadow-soft">
+                <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4 shadow-soft">
                   <info.icon className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <h3 className="font-semibold mb-2">{info.label}</h3>

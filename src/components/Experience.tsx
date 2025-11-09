@@ -52,9 +52,9 @@ const Experience = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Mon <span className="text-gradient">Expérience</span>
+            Mon <span className="text-primary">Expérience</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
         </div>
 
         <div className="space-y-8">
@@ -66,7 +66,7 @@ const Experience = () => {
             >
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center shadow-soft">
+                  <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shadow-soft">
                     <Briefcase className="w-6 h-6 text-primary-foreground" />
                   </div>
                 </div>
